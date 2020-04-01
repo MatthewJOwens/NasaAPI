@@ -4,7 +4,7 @@ import store from "../store.js";
 //Private
 function _draw() {
   let values = store.State.values;
-  console.log(values);
+  document.getElementById("content").innerHTML = values.Template
 }
 
 //Public
